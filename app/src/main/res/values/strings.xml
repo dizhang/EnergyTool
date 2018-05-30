@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">EnergyTool</string>
+    <string name="energytool_settings">EnergyTool Settings</string>
+    <string name="settings">Settings</string>
+    <string name="save_log_as">Save Log As</string>
+    <string name="exit">Exit</string>
+
+    <!-- Setting related strings start -->
+    <string name="cell_service_preference">Cell Service Preference</string>
+    <string name="cell_service_pref">Cell Service</string>
+    <string name="cell_service_enable">Cell Service Enabled</string>
+    <string name="cell_service_disable">Cell Service Disabled</string>
+    <string name="cell_service_interval">Cell Service Interval</string>
+    <string name="cell_service_interval_summary">Cell Service Interval: </string>
+    <string name="cell_states_display_pref">Cell States Display</string>
+    <string name="cell_states_display_enable">Cell States Display Enabled</string>
+    <string name="cell_states_display_disable">Cell States Display Disabled</string>
+
+    <string name="battery_service_preference">Battery Service Preference</string>
+    <string name="battery_service_pref">Battery Service</string>
+    <string name="battery_service_enable">Battery Service Enabled</string>
+    <string name="battery_service_disable">Battery Service Disabled</string>
+    <string name="battery_service_interval">Battery Service Interval</string>
+    <string name="battery_service_interval_summary">Battery Service Interval: </string>
+
+    <string name="network_service_preference">Network Service Preference</string>
+    <string name="network_service_pref">Network Service</string>
+    <string name="network_service_enable">Network Service Enabled</string>
+    <string name="network_service_disable">Network Service Disable</string>
+    <string name="network_service_interval">Network Service Interval</string>
+    <string name="network_service_interval_summary">Network Service Interval: </string>
+
+    <string name="file_service_preference">File Service Preference</string>
+    <string name="file_service_pref">File Service</string>
+    <string name="file_service_enable">File Service Enabled</string>
+    <string name="file_service_disable">File Service Disabled</string>
+    <string name="file_service_interval">File Service Interval</string>
+    <string name="file_service_interval_summary">File Service Interval: </string>
+    <string name="file_service_file_size">File Size</string>
+    <string name="file_service_file_size_summary">File Size: </string>
+    <string name="file_service_server_ip">File Server IP</string>
+    <string name="file_service_server_ip_summary">File Server IP: </string>
+    <string name="file_service_server_port">File Server Port</string>
+    <string name="file_service_server_port_summary">File Server Port: </string>
+    <string name="default_file_service_server_ip">182.92.7.234</string>
+    <string name="default_file_service_server_port">12345</string>
+
+    <string name="iperf_service_preference">Iperf Service Preference</string>
+    <string name="iperf_service_pref">Iperf Service</string>
+    <string name="iperf_service_enable">Iperf Service Enabled</string>
+    <string name="iperf_service_disable">Iperf Service Disabled</string>
+    <string name="iperf_service_interval">Iperf Service Interval</string>
+    <string name="iperf_service_interval_summary">Iperf Service Interval: </string>
+    <string name="iperf_service_server_ip">Iperf Server IP</string>
+    <string name="iperf_service_server_ip_summary">Iperf Server IP: </string>
+    <string name="iperf_service_server_port">Iperf Server Port</string>
+    <string name="iperf_service_server_port_summary">Iperf Server Port: </string>
+    <string name="default_iperf_service_server_ip">182.92.7.234</string>
+    <string name="default_iperf_service_server_port">5201</string>
+    <string name="iperf_is_reverse_pref">Iperf IsReverse</string>
+    <string name="iperf_is_reverse_enable">Iperf IsReverse True (Download) </string>
+    <string name="iperf_is_reverse_disable">Iperf IsReverse False (Upload) </string>
+
+    <string name="sensor_service_preference">Sensor Service Preference</string>
+    <string name="sensor_service_pref">Sensor Service</string>
+    <string name="sensor_service_enable">Sensor Service Enabled</string>
+    <string name="sensor_service_disable">Sensor Service Disabled</string>
+
+    <string name="connectivity_service_preference">Connectivity Service Preference</string>
+    <string name="connectivity_service_pref">Connectivity Service</string>
+    <string name="connectivity_service_enable">Connectivity Service Enabled</string>
+    <string name="connectivity_service_disable">Connectivity Service Disabled</string>
+    <string name="connectivity_service_interval">Connectivity Service Interval</string>
+    <string name="connectivity_service_interval_summary">Connectivity Service Interval: </string>
+    <string name="connectivity_states_display_pref">Connectivity States Display</string>
+    <string name="connectivity_states_display_enable">Connectivity States Enabled</string>
+    <string name="connectivity_states_display_disable">Connectivity States Disabled</string>
+
+    <string name="subway_event_preference">Subway Event Preference</string>
+    <string name="subway_event_pref">Subway Event</string>
+    <string name="subway_event_enable">Subway Event Enabled</string>
+    <string name="subway_event_disable">Subway Event Disabled</string>
+
+    <!-- Setting related strings end -->
+
+    <string name="ar_sw_str">Arrive Station</string>
+    <string name="en_sw_str">Enter Car</string>
+    <string name="le_sw_str">Leave Station</string>
+    <string name="ex_sw_str">Exit Car</string>
+    <string name="sw_start_str">Subway Start</string>
+    <string name="sw_stop_str">Subway Stop</string>
+
+    <string name="net_type">NetworkType</string>
+    <string name="is_gsm">IsGsm</string>
+    <string name="gsm_signal_strength">GsmSignalStrength</string>
+    <string name="gsm_bit_error_rate">GsmBitErrorRate</string>
+    <string name="cdma_dbm">CdmaDbm</string>
+    <string name="cdma_ecio">CdmaEcio</string>
+    <string name="evdo_dbm">EvdoDbm</string>
+    <string name="evdo_ecio">EvdoEcio</string>
+    <string name="evdo_snr">EvdoSnr</string>
+    <string name="lte_signal_strength">LteSignalStrength</string>
+    <string name="lte_rsrp">LteRsrp</string>
+    <string name="lte_rsrq">LteRsrq</string>
+    <string name="lte_rssnr">LteRssnr</string>
+    <string name="lte_cqi">LteCqi</string>
+
+    <string name="cell_id">CellId</string>
+    <string name="rnc_id">RNCId</string>
+    <string name="psc">PSC</string>
+    <string name="cell_location">CellLocation</string>
+    <string name="data_direction">DataDirection</string>
+    <string name="data_state">DataState</string>
+
+    <string name="conn_detailed_state">DetailedState</string>
+    <string name="conn_available">IsAvailable</string>
+    <string name="conn_connected">IsConnected</string>
+    <string name="conn_connected_or_connecting">IsConnectedOrConnecting</string>
+
+    <string name="file_status">FileStatus: Not Started</string>
+    <string name="file_msg">FileMsg: NONE</string>
+    <string name="file_msg_error_total">ERROR: 0</string>
+    <string name="file_msg_ok_total">OK: 0</string>
+
+    <string name="iperf_status">IperfStatus: Not Started</string>
+    <string name="iperf_msg">IperfMsg: NONE</string>
+    <string name="iperf_ok_total">OK: 0</string>
+    <string name="iperf_error_total">ERROR: 0</string>
+
+    <string name="help_message">Toggle Settings to get data collected, and settings take effect after restarting the application.</string>
+
+    <string name="default_filesize">100K.file</string>
+    <string-array name="filesize_entryValues">
+        <item>512B.file</item>
+        <item>1K.file</item>
+        <item>2K.file</item>
+        <item>10K.file</item>
+        <item>100K.file</item>
+        <item>512K.file</item>
+        <item>1M.file</item>
+        <item>2M.file</item>
+        <item>5M.file</item>
+        <item>10M.file</item>
+    </string-array>
+
+    <string-array name="filesize_entries">
+        <item>512B</item>
+        <item>1KB</item>
+        <item>2KB</item>
+        <item>10KB</item>
+        <item>100KB</item>
+        <item>512KB</item>
+        <item>1MB</item>
+        <item>2MB</item>
+        <item>5MB</item>
+    </string-array>
+
+    <!-- service interval in ms -->
+    <string name="default_cell_service_interval">100</string>
+    <string name="default_battery_service_interval">100</string>
+    <string name="default_connectivity_service_interval">100</string>
+    <string name="default_network_service_interval">100</string>
+    <string name="default_file_service_interval">60000</string>
+    <string name="default_iperf_service_interval">10000</string>
+
+</resources>

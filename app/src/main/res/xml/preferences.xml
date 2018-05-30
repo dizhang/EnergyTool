@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="setting_list"
+    android:summary="@string/settings"
+    android:title="@string/settings">
+
+    <!-- cell service -->
+    <PreferenceCategory android:title="@string/cell_service_preference">
+        <CheckBoxPreference
+            android:key="IsCellServiceEnable"
+            android:summaryOff="@string/cell_service_disable"
+            android:summaryOn="@string/cell_service_enable"
+            android:title="@string/cell_service_pref" />
+        <EditTextPreference
+            android:key="CellServiceInterval"
+            android:summary="@string/cell_service_interval_summary"
+            android:title="@string/cell_service_interval" />
+        <CheckBoxPreference
+            android:key="IsCellStatesDisplay"
+            android:summaryOff="@string/cell_states_display_disable"
+            android:summaryOn="@string/cell_states_display_enable"
+            android:title="@string/cell_states_display_pref" />
+    </PreferenceCategory>
+
+    <!-- battery service -->
+    <PreferenceCategory android:title="@string/battery_service_preference">
+
+        <CheckBoxPreference
+            android:key="IsBatteryServiceEnable"
+            android:persistent="true"
+            android:summaryOff="@string/battery_service_disable"
+            android:summaryOn="@string/battery_service_enable"
+            android:title="@string/battery_service_pref" />
+        <EditTextPreference
+            android:key="BatteryServiceInterval"
+            android:summary="@string/battery_service_interval_summary"
+            android:title="@string/battery_service_interval" />
+    </PreferenceCategory>
+
+    <!-- network service -->
+    <PreferenceCategory android:title="@string/network_service_preference">
+
+        <CheckBoxPreference
+            android:key="IsNetworkServiceEnable"
+            android:summaryOff="@string/network_service_disable"
+            android:summaryOn="@string/network_service_enable"
+            android:title="@string/network_service_pref" />
+        <EditTextPreference
+            android:key="NetworkServiceInterval"
+            android:summary="@string/network_service_interval_summary"
+            android:title="@string/network_service_interval" />
+    </PreferenceCategory>
+
+    <!-- connectivity service -->
+    <PreferenceCategory android:title="@string/connectivity_service_preference">
+
+        <CheckBoxPreference
+            android:key="IsConnectivityServiceEnable"
+            android:summaryOff="@string/connectivity_service_disable"
+            android:summaryOn="@string/connectivity_service_enable"
+            android:title="@string/connectivity_service_pref" />
+        <EditTextPreference
+            android:key="ConnectivityServiceInterval"
+            android:summary="@string/connectivity_service_interval_summary"
+            android:title="@string/connectivity_service_interval" />
+        <CheckBoxPreference
+            android:key="IsConnectivityStatesDisplay"
+            android:summaryOff="@string/connectivity_states_display_disable"
+            android:summaryOn="@string/connectivity_states_display_enable"
+            android:title="@string/connectivity_states_display_pref" />
+    </PreferenceCategory>
+
+    <!-- sensor service -->
+    <PreferenceCategory android:title="@string/sensor_service_preference">
+        <CheckBoxPreference
+            android:key="IsSensorServiceEnable"
+            android:summaryOff="@string/sensor_service_disable"
+            android:summaryOn="@string/sensor_service_enable"
+            android:title="@string/sensor_service_pref" />
+    </PreferenceCategory>
+
+    <!-- file service -->
+    <PreferenceCategory android:title="@string/file_service_preference">
+
+        <CheckBoxPreference
+            android:key="IsFileServiceEnable"
+            android:summaryOff="@string/file_service_disable"
+            android:summaryOn="@string/file_service_enable"
+            android:title="@string/file_service_pref" />
+        <EditTextPreference
+            android:key="FileServiceInterval"
+            android:summary="@string/file_service_interval_summary"
+            android:title="@string/file_service_interval" />
+        <ListPreference
+            android:entries="@array/filesize_entries"
+            android:entryValues="@array/filesize_entryValues"
+            android:key="FileServiceFileSize"
+            android:summary="@string/file_service_file_size_summary"
+            android:title="@string/file_service_file_size" />
+
+        <EditTextPreference
+            android:key="FileServiceServerIP"
+            android:summary="@string/file_service_server_ip_summary"
+            android:title="@string/file_service_server_ip" />
+
+        <EditTextPreference
+            android:key="FileServiceServerPort"
+            android:summary="@string/file_service_server_port_summary"
+            android:title="@string/file_service_server_port" />
+    </PreferenceCategory>
+
+    <!-- Iperf Service -->
+    <PreferenceCategory android:title="@string/iperf_service_preference">
+
+        <CheckBoxPreference
+            android:key="IsIperfServiceEnable"
+            android:summaryOff="@string/iperf_service_disable"
+            android:summaryOn="@string/iperf_service_enable"
+            android:title="@string/iperf_service_pref" />
+        <EditTextPreference
+            android:key="IperfServiceInterval"
+            android:summary="@string/iperf_service_interval_summary"
+            android:title="@string/iperf_service_interval" />
+
+        <EditTextPreference
+            android:key="IperfServiceServerIP"
+            android:summary="@string/iperf_service_server_ip_summary"
+            android:title="@string/iperf_service_server_ip" />
+
+        <EditTextPreference
+            android:key="IperfServiceServerPort"
+            android:summary="@string/iperf_service_server_port_summary"
+            android:title="@string/iperf_service_server_port" />
+
+        <CheckBoxPreference
+            android:key="IperfServiceIsReverse"
+            android:summaryOff="@string/iperf_is_reverse_disable"
+            android:summaryOn="@string/iperf_is_reverse_enable"
+            android:title="@string/iperf_is_reverse_pref"/>
+    </PreferenceCategory>
+
+    <!-- subway event -->
+    <PreferenceCategory android:title="@string/subway_event_preference">
+        <CheckBoxPreference
+            android:key="IsSubwayEventEnable"
+            android:summaryOff="@string/subway_event_disable"
+            android:summaryOn="@string/subway_event_enable"
+            android:title="@string/subway_event_pref" />
+    </PreferenceCategory>
+</PreferenceScreen>

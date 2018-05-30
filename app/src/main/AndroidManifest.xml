@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.tsinghua.cs.energytool">
+
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="cn.edu.tsinghua.cs.energytool.EnergyToolApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/energytool"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cn.edu.tsinghua.cs.energytool.EnergyTool"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".EnergyToolSetting"
+            android:label="@string/energytool_settings" />
+
+        <service android:name="cn.edu.tsinghua.cs.energytool.EnergyToolService" />
+        <service android:name="cn.edu.tsinghua.cs.energytool.attrservice.BatteryAttributeService" />
+        <service android:name="cn.edu.tsinghua.cs.energytool.attrservice.CellAttributeService" />
+        <service android:name="cn.edu.tsinghua.cs.energytool.attrservice.NetworkAttributeService" />
+        <service android:name="cn.edu.tsinghua.cs.energytool.attrservice.ConnectivityAttributeService" />
+        <service android:name="cn.edu.tsinghua.cs.energytool.fileservice.FileService" />
+        <service android:name="cn.edu.tsinghua.cs.energytool.iperf.IperfService" />
+
+    </application>
+
+</manifest>
