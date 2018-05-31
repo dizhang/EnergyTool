@@ -1,4 +1,6 @@
 /**
+ * MIT License
+ * <p>
  * Copyright (c) 2018 Di Zhang
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy

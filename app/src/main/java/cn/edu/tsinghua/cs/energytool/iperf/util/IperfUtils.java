@@ -1,4 +1,6 @@
 /**
+ * MIT License
+ * <p>
  * Copyright (c) 2018 Di Zhang
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -75,7 +77,7 @@ public class IperfUtils {
     /**
      * run iperf command and collect the output string for usage
      *
-     * @param context context
+     * @param context      context
      * @param iperfOptions iperf options
      * @return iperf output, if ok return the normal result, if contains error return null
      */
