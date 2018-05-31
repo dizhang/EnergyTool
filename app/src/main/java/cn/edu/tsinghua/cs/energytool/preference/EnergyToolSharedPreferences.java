@@ -61,7 +61,7 @@ public class EnergyToolSharedPreferences {
         isBatteryServiceEnable = sharedPreferences.getBoolean("IsBatteryServiceEnable", true);
         isCellServiceEnable = sharedPreferences.getBoolean("IsCellServiceEnable", true);
         isNetworkServiceEnable = sharedPreferences.getBoolean("IsNetworkServiceEnable", true);
-        isFileServiceEnable = sharedPreferences.getBoolean("IsFileServiceEnable", true);
+        isFileServiceEnable = sharedPreferences.getBoolean("IsFileServiceEnable", false);
         isSensorServiceEnable = sharedPreferences.getBoolean("IsSensorServiceEnable", false);
         isConnectivityServiceEnable = sharedPreferences.getBoolean("IsConnectivityServiceEnable", false);
         isIperfServiceEnable = sharedPreferences.getBoolean("IsIperfServiceEnable", false);
