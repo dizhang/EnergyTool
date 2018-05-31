@@ -1,4 +1,4 @@
-==EnergyTool==
+### EnergyTool
 
 EnergyTool is an experimental tool for conserving energy in mobile phones based on Android. 
 
