@@ -7,6 +7,6 @@ ConnectivityService: get network connection states
 FileService: download file from a dedicated server
 IperfService: iperf client
 
-For more information please read our paper in IEEE SECON 2018: AHT: Application-Based Handover Triggering for Saving Energy in Cellular Networks.
+For more information please read and cite our paper in IEEE SECON 2018: AHT: Application-Based Handover Triggering for Saving Energy in Cellular Networks.
 
 For questions and more detail information, please contact dizhang.thu@gmail.com or dizhang@tsinghua.edu.cn.
